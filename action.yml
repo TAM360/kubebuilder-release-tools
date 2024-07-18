@@ -7,6 +7,6 @@ inputs:
 runs:
   using: docker
   # this is built using GCB by building the Dockerfile in this directory on
-  # every tagged release.  After tagging a release, a new version should
+  # every tagged release. After tagging a release, a new version should
   # automatically appear.
   image: 'docker://registry.k8s.io/kubebuilder/pr-verifier:v0.4.3'
